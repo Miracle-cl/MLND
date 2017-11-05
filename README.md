@@ -1,3 +1,3 @@
-# MLND
+# Machine Learning Engineer Nanodegree
 
-Homework of Machine Learning from Udacity!
+Projects of Machine Learning from Udacity!
