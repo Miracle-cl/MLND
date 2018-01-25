@@ -1,16 +1,13 @@
-本项目包含：
-    一个项目报告：capstone_project_ml.pdf
-	预训练词向量文件：glove.6B.100d.txt
-	    下载链接 https://nlp.stanford.edu/projects/glove/
-    5个基于Jupyter notebook的开发文档：
+# 本项目包含：
+### 5个基于Jupyter notebook的开发文档：
         text_classification_sklearn.ipynb
         text_rnn_tf.ipynb
 	    text_classification_keras.ipynb
 	    pretrained_glove_keras.ipynb
 	    text_han_keras.ipynb
-    开发文档另存的Html文件和py文件
 
-使用的软件和库包括：
+
+### 使用的软件和库包括：
 python 3.6.1
 numpy 1.12.1
 sklearn 0.19.1
@@ -21,10 +18,11 @@ keras 2.1.2
 nltk 3.2.5
 gensim 3.0.1
 
-使用的数据集为：
+### 使用的数据集为：
 20Newsgroups, 直接从sklearn中导入
+glove.6B.100d.txt, https://nlp.stanford.edu/projects/glove/
 
-开发文档说明：
+### 开发文档说明：
 text_classification_sklearn.ipynb：包含tf-idf和LDA文本表示算法，以及sklearn库中常用的机器学习分类算法，运行时间大约在2小时左右。
 text_rnn_tf.ipynb：包括文本预处理以及使用tensorflow建模，运行时间大约在2小时左右。
 text_classification_keras.ipynb：包括3中keras建模以及结果可视化处理，运行时间大约也是2-3小时。
